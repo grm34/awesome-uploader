@@ -11,11 +11,8 @@
 ## Installation
 
 ```shell
-wget https://github.com/grm34/awesome-uploader/archive/master.zip
-unzip master.zip
-mv awesome-uploader-master/awesome-uploader awesome-uploader
-rm -rf master.zip awesome-uploader-master
-nano awesome-uploader/conf/config.py
+git clone git@github.com:grm34/awesome-uploader.git
+nano awesome-uploader/awesome-uploader/conf/config.py
 ```
 
 ## Configuration
@@ -55,7 +52,7 @@ nano awesome-uploader/conf/config.py
 
 ## Usage
 
-`python3 awesome-uploader/awesome-uploader.py`
+`python3 awesome-uploader.py`
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
