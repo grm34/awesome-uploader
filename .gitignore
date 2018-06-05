@@ -1,0 +1,11 @@
+# Python cache
+__pycache__
+
+# Debug
+*test*
+
+# Activity logs
+*.log*
+
+# Vscode
+*.vscode*
