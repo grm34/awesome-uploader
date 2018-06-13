@@ -11,8 +11,17 @@
 ## Installation
 
 ```shell
-git clone git@github.com:grm34/awesome-uploader.git
-nano awesome-uploader/awesome-uploader/conf/config.py
+# Clone the repository
+git clone git@github.com:grm34/awesome-uploader.git ~/.awesome-uploader
+
+# Setup your configuration
+nano ~/.awesome-uploader/awesome-uploader/conf/config.py
+
+# Create an alias to launch it from everywhere
+echo "alias awesome-uploader='python3 ~/.awesome-uploader/awesome-uploader/awesome-uploader.py'" >> ~/.bashrc
+
+# You can now simply launch it by running
+awesome-uploader
 ```
 
 ## Configuration
@@ -49,10 +58,6 @@ nano awesome-uploader/awesome-uploader/conf/config.py
 * **Patterns**:
   * includes: match only included files
   * excludes: delete excluded files
-
-## Usage
-
-`python3 awesome-uploader.py`
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
