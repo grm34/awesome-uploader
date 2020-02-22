@@ -1,6 +1,6 @@
 # ![icon](https://github.com/grm34/awesome-uploader/blob/master/doc/awesome-uploader.png) awesome-uploader
 
-[![version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/grm34/awesome-uploader/releases) [![beta](https://img.shields.io/badge/status-beta-lightgrey.svg)](https://github.com/grm34/awesome-uploader/releases) [![author](https://img.shields.io/badge/author-grm34-red.svg)](https://github.com/grm34) [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/grm34/awesome-uploader/blob/master/LICENSE) [![maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/grm34/awesome-uploader/pulse)
+[![version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/grm34/awesome-uploader/releases) [![author](https://img.shields.io/badge/author-grm34-red.svg)](https://github.com/grm34) [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/grm34/awesome-uploader/blob/master/LICENSE) [![maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/grm34/awesome-uploader/pulse)
 
 ## Dependencies
 
@@ -36,10 +36,10 @@ awesome-uploader
   * url_api: set tracker api url
 
 * **User**:
-  * working_dir: path of releases to upload
-  * torrents_dir: path to store .torrents files
-  * watch_dir: your watch dir path
-  * upload_dir: path of releases in seed
+  * working_dir: set path of releases to upload
+  * torrents_dir: set path to store .torrents files
+  * watch_dir: set watch dir path
+  * upload_dir: set path of releases in seed
 
 * **Api**:
   * layer13_url: `http://api.layer13.net/v1/`
