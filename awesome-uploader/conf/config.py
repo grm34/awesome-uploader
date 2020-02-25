@@ -48,7 +48,7 @@ cat = {
 # Teams
 team = {
     'animes': [
-        'MANGACiTY' 'BOOLZ', 'D4KiD', 'BOOLZ', 'NEECHAN', 'SaSHiMi',
+        'MANGACiTY' 'BOOLZ', 'D4KiD', 'NEECHAN', 'SaSHiMi',
         'SHiNiGAMi', 'DIEBEX', 'KAZETV', 'SLEEPINGFOREST', 'OOKAMI'],
     'games': [
         'CPY', 'SKiDROW', 'FLT', 'RELOADED', 'PLAZA', 'CODEX']
