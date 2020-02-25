@@ -17,7 +17,7 @@ formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
 
 # Create handler to redirect logs to file (max size: 1M)
 file_handler = RotatingFileHandler(
-    os.path.join(logs['path'], 'awsome-uploader.log'), 'a', 1000000, 1)
+    os.path.join(logs['path'], 'awesome-uploader.log'), 'a', 1000000, 1)
 
 # Set loglevel to handler
 file_handler.setLevel(eval('{0}.{1}'.format('logging', logs['level'])))
